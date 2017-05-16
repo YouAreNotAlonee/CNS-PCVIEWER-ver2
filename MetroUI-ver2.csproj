@@ -73,26 +73,19 @@
   <ItemGroup>
     <Reference Include="managedCTAT, Version=1.0.6304.31431, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\MetroUI-ver2-master\MetroUI-ver2\bin\Debug\managedCTAT.dll</HintPath>
+      <HintPath>..\dll\managedCTAT.dll</HintPath>
     </Reference>
-    <Reference Include="managedTAT, Version=1.0.6324.28857, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\MetroUI-ver2-master\MetroUI-ver2\bin\Debug\managedTAT.dll</HintPath>
+    <Reference Include="managedTAT">
+      <HintPath>..\dll\managedTAT.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\MetroUI-ver2-master\MetroUI-ver2\bin\Debug\MetroFramework.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\MetroUI-ver2-master\MetroUI-ver2\bin\Debug\MetroFramework.Design.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\MetroUI-ver2-master\MetroUI-ver2\bin\Debug\MetroFramework.Fonts.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="MetroUI-ver2">
-      <HintPath>..\..\..\MetroUI-ver2-dll\MetroUI-ver2.dll</HintPath>
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <SpecificVersion>False</SpecificVersion>
@@ -100,11 +93,11 @@
     </Reference>
     <Reference Include="Microsoft.DirectX.AudioVideoPlayback, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\MetroUI-ver2-master\MetroUI-ver2\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.dll</HintPath>
+      <HintPath>..\dll\Microsoft.DirectX.AudioVideoPlayback.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\MetroUI-ver2-master\MetroUI-ver2\bin\Debug\Microsoft.DirectX.Direct3D.dll</HintPath>
+      <HintPath>..\dll\Microsoft.DirectX.Direct3D.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2910.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <SpecificVersion>False</SpecificVersion>
@@ -273,6 +266,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutter.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

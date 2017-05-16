@@ -8,13 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using Microsoft.DirectX.AudioVideoPlayback;
+//using Microsoft.DirectX.AudioVideoPlayback;
 using System.Runtime.InteropServices;
 using System.IO;
-using Microsoft.DirectX;
-using Microsoft.DirectX.Direct3D;
+//using Microsoft.DirectX;
+//using Microsoft.DirectX.Direct3D;
 using OpenCvSharp;
-using System.Collections.Generic;
 using managedCTAT;
 using System.Windows.Forms.DataVisualization.Charting;
 

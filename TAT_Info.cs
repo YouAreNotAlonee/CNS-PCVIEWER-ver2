@@ -10,7 +10,6 @@ using System.IO;
 using Microsoft.DirectX;
 using Microsoft.DirectX.Direct3D;
 using OpenCvSharp;
-using System.Collections.Generic;
 using managedCTAT;
 using System.Windows.Forms.DataVisualization.Charting;
 
